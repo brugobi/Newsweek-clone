@@ -1,0 +1,38 @@
+.header {
+    background-color: rgb(239, 32, 39);
+}
+
+.tittle {
+    font-family: 'Alike', serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.tittle2 {
+    font-family: 'Alike', serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.feature-stories {
+    width: 30%;
+    
+}
+
+.top-story {
+    width: 40%;
+}
+
+.img1-feature {
+    background-image: url("https://d.newsweek.com/en/full/1585050/wuhan-institute-virology-covid-19-coronavirus-lab.jpg?w=397&amp;h=265&amp;q=90&amp;f=4b680e13dac725414d2db737a81cd77f");
+    background-size: cover;
+}
+
+.img1-top-story {
+    background-image: url("https://d.newsweek.com/en/full/1585286/germany-coronavirus.jpg?w=591&amp;h=364&amp;f=c86487b7b39c3c73cdc51ade899edf6c");
+    background-size: cover;
+}
+
+
+
+

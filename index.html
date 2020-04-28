@@ -1,43 +1,36 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="./assets/stylesheet/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alike&display=swap" rel="stylesheet">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
     <title>NewsWeek - Clone</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-    <link href="./assets/stylesheet/index.css" type="text/css" rel="stylesheet">
+    
   </head>
   <body>
-      <header>
-
-        <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="/">NewsWeek</a>
-                </li>
-                <li class="nav-item"> 
-                    <a class="nav-link" href="/">14 London, CA ></a>
-                </li>
-            </ul>
-            <ul class="navbar-nav float-right">
-                <li class="nav-item">
-                    <a class="nav-link" href="/">SIGN IN</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/">SUBSCRIBE</a>
-                </li>
-            </ul>
-        </nav>
+    <header class="header">
+        <div class="d-flex justify-content-between">
+            <div>
+                <a class="text-white nav-link" href="/"><i class="fa fa-cloud text-white" aria-hidden="true"></i>&nbsp;&nbsp;14&#176; London, CA ></a>
+                <p class="text-white">Mon, Apr 27, 2020</p>
+            </div>
+            <div class="align-self-center tittle">
+                <a class="text-white nav-link" href="/">Newsweek</a>
+            </div>
+            <div class="align-self-center">
+                <a class="text-white" href="/">SIGN IN&nbsp;</a>
+                <button>
+                    <a class="text-danger" href="/">SUBSCRIBE&nbsp;&nbsp;></a>
+                </button>
+            </div>
+        </div>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">    
-            <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse" data-target="#navbarSite">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSite">
+            <div class="collapse navbar-collapse">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="/">U.S.&nbsp;&nbsp;|</a>
@@ -79,11 +72,105 @@
                 </form>
             </div>
         </nav>
-      </header>
 
-      <div class="main">
+        <div class="d-flex justify-content-between d-lg-none">
+            <div class="align-self-center">
+                <a class="nav-link text-white tittle2" href="/">Newsweek</a>
+            </div>
+            <div>
+                <a class="nav-link text-white" href="/"><i class="fa fa-cloud" aria-hidden="true"></i>&nbsp;&nbsp;14&#176; London, CA ></a>
+            </div>
+            <div class="align-self-center">
+                <a class="nav-link text-white" href="/">SIGN IN&nbsp;</a>
+                <button>
+                    <a class="text-danger" href="/">SUBSCRIBE&nbsp;&nbsp;></a>
+                </button>
+                <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse" data-target="#navbarSite">
+                    <span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
+                </button>
+            </div>
+        </div>  
+    </header>
 
-      </div>
+    <div class="container-fluid">
+        <div class="row">
+            <section class="col-lg-4 col-md-4 col-sm-2 col-xm-12 feature-stories">
+                <h4>FEATURE STORIES</4>
+                <article class="card">
+                    <div class="img1-feature"> 
+                        <img src="..." class="card-img-top" alt="...">
+                        <button>
+                            <a class="text-danger" href="/">World</a>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="/">The Controversial Experiments and Wuhan Lab Suspected of Starting Pandemic</a></h5>
+                        <p class="card-text">After reporting that Covid-19 occurred naturally, U.S. intelligence modified its stance to say it might have leaked from a lab.</p>
+                    </div>
+                </article>
+                <br>
+                <article>
+                    <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="/">The Controversial Experiments and Wuhan Lab Suspected of Starting Pandemic</a></h5>
+                            <p class="card-text">After reporting that Covid-19 occurred naturally, U.S. intelligence modified its stance to say it might have leaked from a lab.</p>
+                        </div>
+                </article>
+            </section>
+            <section class="col-lg-4 col-md-4 col-sm-2 col-xm-12 top-story">
+            <h4>TOP STORY</4>
+                <article class="card">
+                    <div class="img1-top-story"> 
+                        <img src="..." class="card-img-top" alt="...">
+                        <button>
+                            <a class="text-danger" href="/">World</a>
+                        </button>
+                    </div>
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="/">As Germany Eases Lockdown Restrictions, Coronavirus Infection Rate Rises</a></h5>
+                            <p class="card-text">"Let us continue to stay at home as much as possible, keep observing the restrictions," Lothar Wieler, president of the Robert Koch Institute, warned.</p>
+                        </div>
+                </article>
+                <br>
+                <article>
+                    <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="/">As Germany Eases Lockdown Restrictions, Coronavirus Infection Rate Rises</a></h5>
+                            <p class="card-text">"Let us continue to stay at home as much as possible, keep observing the restrictions," Lothar Wieler, president of the Robert Koch Institute, warned.</p>
+                        </div>
+                </article>
+            </section>
+           
+            
+            <section class="col-lg-4 col-md-4 col-sm-2 col-xm-12">
+                <h4>OPNION</4>
+                <div class="d-flex">
+                    <img src="https://d.newsweek.com/en/full/97976/robert-reich.png?w=63&amp;h=63&amp;f=297351a03eaa549128026042394c9580" class="d-lg-inline-flex" alt="...">
+                    <div>
+                        <h5 class="card-title"><a href="/">Coronavirus Is Creating a New Class Divide That Threatens Us All</a></h5>
+                        <p class="card-text">BY ROBERT REICH</p>
+                    </div>
+                </div>
+                <br>
+                <div class="d-flex">
+                    <img src="https://d.newsweek.com/en/full/97976/robert-reich.png?w=63&amp;h=63&amp;f=297351a03eaa549128026042394c9580" class="d-lg-inline-flex" alt="...">
+                    <div>
+                        <h5 class="card-title"><a href="/">Coronavirus Is Creating a New Class Divide That Threatens Us All</a></h5>
+                        <p class="card-text">BY ROBERT REICH</p>
+                    </div>
+                </div>
+                <br>
+                <div class="d-flex">
+                    <img src="https://d.newsweek.com/en/full/97976/robert-reich.png?w=63&amp;h=63&amp;f=297351a03eaa549128026042394c9580" class="d-lg-inline-flex" alt="...">
+                    <div>
+                        <h5 class="card-title"><a href="/">Coronavirus Is Creating a New Class Divide That Threatens Us All</a></h5>
+                        <p class="card-text">BY ROBERT REICH</p>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </div>
 
 
     <!-- Optional JavaScript -->
