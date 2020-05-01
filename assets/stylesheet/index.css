@@ -1,8 +1,6 @@
-body {
-    background-color: rgb(241, 243, 245);
-  }
+
 .wrapper {
-  background-color: #fff;
+  background-color: rgb(241, 243, 245);
   width: 100vw;
   max-width: 1312px;
   height: 100vh;
@@ -11,38 +9,78 @@ body {
   margin-right: auto;
 }
 
-.container {
-    margin-left: 3px;
-    margin-right: 3px;
-}
+/*###############################################-----HEADER----###############################################*/
+
 .mobile-header {
+    display: flex;
+    justify-content: space-between;
     background-color: #F72210;
-    overflow: hidden;
-   
-    width: 352px;
+    font-family: 'Roboto Condensed', sans-serif; 
+    height: 50px;  
 }
 
-.mobile-header a {
-    float: left;
+.desktop-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F72210;
+    font-family: 'Roboto Condensed', sans-serif; 
+    height: 96px;
+}
+
+.desktop-header p {
+    font-size: 15px;
     color: white;
-    text-align: center;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 25px;
-    
+    padding: 18px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.mobile-header a.logo {
-    font-family: Arial,Helvetica,sans-serif;
+.fa-bars {
+    color: rgb(237, 134, 130);
+    font-size: 14px;
+}
+
+.mobile-header-right {
+    align-self: center;
+    font-size: 14px;
+    padding: 12px;
+
+}
+.logo {
+    float: left;
+    padding: 12px;
     font-size: 20px;
     font-weight: bold;
 }
 
-.mobile-header-right {
-    float: right;
+.london {
+    float: left;
+    padding: 18px;
     font-size: 14px;
-    font-family: 'Roboto Condensed', sans-serif;
+}
+.logo-desktop {
+    display: flex;
+    align-self: center;
+    font-size: 90px;
+}
+
+.nav a {
+    color: black;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    color: red;
+    font-weight: bold;
+}
+
+
+
+
+
+/*###############################################-----CONTAINER----###############################################*/
+
+.container {
+    background-color: white;
 }
 
 .section-title {
@@ -156,10 +194,11 @@ body {
     border-bottom: solid 1px gray;
 }
 
-i.fa {
+.fa-facebook-square, .fa-twitter, .fa-instagram, .fa-tumblr, .fa-linkedin {
     color: gray;
     font-size: 30px;
 }
+
 .footer-links {
     margin-top: 15px;
 }
