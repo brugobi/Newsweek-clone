@@ -14,133 +14,403 @@
     <title>NewsWeek - Clone</title>
   </head>
 
-  <body>
-      <div class="wrapper">
-            <div class="d-block d-sm-none">
-                <div class="mobile-header">
-                    <div>
-                        <a href="/" class="logo text-white">Newsweek</a>
-                    </div>
-                    <div class="mobile-header-right">
-                        <a class="text-white" href="/">SIGN IN&nbsp;</a>
-                        <button type="submit" class="text-danger bg-light">SUBSCRIBE&nbsp;></button>
-                        <span><i class="fa fa-bars" aria-hidden="true"></i></span>
+    <body>
+        <div class="wrapper">
+            <div class="header">
+                <div class="d-block d-sm-none">
+                    <div class="mobile-header">
+                        <div>
+                            <a href="/" class="logo text-white">Newsweek</a>
+                        </div>
+                        <div class="mobile-header-right">
+                            <a class="text-white" href="/">SIGN IN&nbsp;</a>
+                            <button type="submit" class="text-danger bg-light">SUBSCRIBE&nbsp;></button>
+                            <span><i class="fa fa-bars" aria-hidden="true"></i></span>
+                        </div>
                     </div>
                 </div>
-            </div>
             
-            <div class="d-none d-sm-block d-md-none">
-                <div class="Ipad-header mobile-header">
-                    <div>
-                        <a href="/" class="logo text-white">Newsweek</a> 
-                        <a href="/" class="logo london text-white"><i class="fa fa-cloud" aria-hidden="true"></i>&nbsp;&nbsp;12 London, CA&nbsp;></a>  
-                    </div>
-                   
-                    <div class="mobile-header-right">
-                        <a class="text-white" href="/">SIGN IN&nbsp;</a>
-                        <button type="submit" class="text-danger bg-light">SUBSCRIBE&nbsp;></button>
-                        <span><i class="fa fa-bars" aria-hidden="true"></i></span>
+                <div class="d-none d-sm-block d-md-none">
+                    <div class="Ipad-header mobile-header">
+                        <div>
+                            <a href="/" class="logo text-white">Newsweek</a> 
+                            <a href="/" class="logo london text-white"><i class="fa fa-cloud" aria-hidden="true"></i>&nbsp;&nbsp;12 London, CA&nbsp;></a>  
+                        </div>
+                    
+                        <div class="mobile-header-right">
+                            <a class="text-white" href="/">SIGN IN&nbsp;</a>
+                            <button type="submit" class="text-danger bg-light">SUBSCRIBE&nbsp;></button>
+                            <span><i class="fa fa-bars" aria-hidden="true"></i></span>
+                        </div>
                     </div>
                 </div>
-            </div>
             
-            <div class="d-none d-md-block">
-                <div class="desktop-header mobile-header">
-                    <div>
-                        <a href="/" class="london text-white"><i class="fa fa-cloud" aria-hidden="true"></i>&nbsp;&nbsp;12 London, CA&nbsp;></a>
-                        <p>Thu, Apr 30, 2020</p>  
-                    </div>
-                    <a href="/" class="logo-desktop text-white">Newsweek</a> 
-                    <div class="mobile-header-right">
-                        <a class="text-white" href="/">SIGN IN&nbsp;</a>
-                        <button type="submit" class="text-danger bg-light">SUBSCRIBE&nbsp;></button>
-                    </div>
+                <div class="d-none d-md-block">
+                    <div class="desktop-header mobile-header">
+                        <div>
+                            <a href="/" class="london text-white"><i class="fa fa-cloud" aria-hidden="true"></i>&nbsp;&nbsp;12 London, CA&nbsp;></a>
+                            <p>Thu, Apr 30, 2020</p>  
+                        </div>
+                        <a href="/" class="logo-desktop text-white">Newsweek</a> 
+                        <div class="mobile-header-right">
+                            <a class="text-white" href="/">SIGN IN&nbsp;</a>
+                            <button type="submit" class="text-danger bg-light">SUBSCRIBE&nbsp;></button>
+                        </div>
                 </div>
-                <ul class="nav justify-content-center">
-                    <li class="nav-item">
-                      <a class="nav-link active" href="#">U.S&nbsp;&nbsp;|</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">World&nbsp;&nbsp;|</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Business&nbsp;&nbsp;|</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Tech & Science&nbsp;&nbsp;|</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Culture&nbsp;&nbsp;|</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Newsgeek&nbsp;&nbsp;|</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Sports&nbsp;&nbsp;|</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Health&nbsp;&nbsp;|</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">The Debate&nbsp;&nbsp;|</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Vantage&nbsp;&nbsp;|</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Weather</a>
-                    </li>
-                    <li class="nav-item">
-                      <span class="nav-link">Search&nbsp;&nbsp;<i class="fa fa-search" aria-hidden="true"></i></span>
-                    </li>
-                  </ul>
+                    <ul class="nav justify-content-center desktop-nav">
+                        <li class="nav-item">
+                        <a class="nav-link active" href="#">U.S&nbsp;&nbsp;|</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">World&nbsp;&nbsp;|</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Business&nbsp;&nbsp;</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tech & Science&nbsp;&nbsp;|</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Culture&nbsp;&nbsp;|</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Newsgeek&nbsp;&nbsp;|</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sports&nbsp;&nbsp;|</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Health&nbsp;&nbsp;|</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">The Debate&nbsp;&nbsp;|</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Vantage&nbsp;&nbsp;|</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Weather</a>
+                        </li>
+                        <li class="nav-item">
+                        <span class="nav-link">Search&nbsp;&nbsp;<i class="fa fa-search" aria-hidden="true"></i></span>
+                        </li>
+                    </ul>
+                </div>   
             </div>
             
             <div class="container">
                 <div class="row">
-                    <section class="col-sm-12 col-xm-12">
-                    <h4 class="text-muted section-title">TOP STORY</4>
-                        <article class="card" style="width: 20rem;">
-                            <img src="https://d.newsweek.com/en/full/1585286/germany-coronavirus.jpg?w=591&amp;h=364&amp;f=c86487b7b39c3c73cdc51ade899edf6c" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title"><a href="/">As Germany Eases Lockdown Restrictions, Coronavirus Infection Rate Rises</a></h5>
-                                <p class="card-text">"Let us continue to stay at home as much as possible, keep observing the restrictions," Lothar Wieler, president of the Robert Koch Institute, warned.</p>
+                    <article class="col-lg">
+                        <div class="content mx-auto">
+                            <div class="block-title font-weight-bold">FEATURE STORIES</div>
+                                <div class="wrap">
+                                    <div class="card">
+                                      <img class="img-fluid" src="https://d.newsweek.com/en/full/1585372/fauci-trump-corornavirus-covid-19-pandemic-research-nih.jpg?w=397&amp;h=265&amp;q=90&amp;f=5b6fddb3af20d434e5b1227c6b008ea0" alt="">
+                                      <div class="categorie"><a href="/us">NEWS</a></div>
+                                    </div>
+                                    <h3>
+                                      <a class="font-weight-bold text-black link-underline" href="#">
+                                        Dr. Fauci Backed Controversial Wuhan Lab with Millions of U.S. Dollars
+                                      </a>
+                                    </h3>
+                                  <div class="summary">
+                                    Biomedical research ultimately helps protect public health, Fauci argued. The Wuhan lab that received U.S. taxpayer money is suspected of playing a role in starting the Covid-19 pandemic.                                  </div>
+                                </div>
+                                <div class="wrap">
+                                    <div class="card">
+                                      <img class="img-fluid" src="https://d.newsweek.com/en/full/1585372/fauci-trump-corornavirus-covid-19-pandemic-research-nih.jpg?w=397&amp;h=265&amp;q=90&amp;f=5b6fddb3af20d434e5b1227c6b008ea0" alt="">
+                                      <div class="categorie">
+                                        <a href="/us">NEWS</a>
+                                      </div>
+                                    </div>
+                                    <h3>
+                                      <a class="font-weight-bold text-black link-underline" href="#">
+                                        Dr. Fauci Backed Controversial Wuhan Lab with Millions of U.S. Dollars
+                                      </a>
+                                  </h3>
+                                  <div class="summary">
+                                    Biomedical research ultimately helps protect public health, Fauci argued. The Wuhan lab that received U.S. taxpayer money is suspected of playing a role in starting the Covid-19 pandemic.</div>
+                                </div>
+                                <div class="wrap">
+                                    <div class="card">
+                                      <img class="img-fluid" src="https://d.newsweek.com/en/full/1585372/fauci-trump-corornavirus-covid-19-pandemic-research-nih.jpg?w=397&amp;h=265&amp;q=90&amp;f=5b6fddb3af20d434e5b1227c6b008ea0" alt="">
+                                      <div class="categorie">
+                                        <a href="/us">NEWS</a>
+                                      </div>
+                                    </div>
+                                    <h3>
+                                      <a class="font-weight-bold text-black link-underline" href="#">
+                                        Dr. Fauci Backed Controversial Wuhan Lab with Millions of U.S. Dollars
+                                      </a>
+                                  </h3>
+                                  <div class="summary">
+                                    Biomedical research ultimately helps protect public health, Fauci argued. The Wuhan lab that received U.S. taxpayer money is suspected of playing a role in starting the Covid-19 pandemic.</div>
+                                </div>
+                                <div class="wrap">
+                                    <div class="card">
+                                      <img class="img-fluid" src="https://d.newsweek.com/en/full/1585372/fauci-trump-corornavirus-covid-19-pandemic-research-nih.jpg?w=397&amp;h=265&amp;q=90&amp;f=5b6fddb3af20d434e5b1227c6b008ea0" alt="">
+                                      <div class="categorie">
+                                        <a href="/us">NEWS</a>
+                                      </div>
+                                    </div>
+                                    <h3>
+                                      <a class="font-weight-bold text-black link-underline" href="#">
+                                        Dr. Fauci Backed Controversial Wuhan Lab with Millions of U.S. Dollars
+                                      </a>
+                                  </h3>
+                                  <div class="summary">
+                                    Biomedical research ultimately helps protect public health, Fauci argued. The Wuhan lab that received U.S. taxpayer money is suspected of playing a role in starting the Covid-19 pandemic.</div>
+                                </div>
+                                <div class="wrap">
+                                    <div class="card">
+                                      <img class="img-fluid" src="https://d.newsweek.com/en/full/1585372/fauci-trump-corornavirus-covid-19-pandemic-research-nih.jpg?w=397&amp;h=265&amp;q=90&amp;f=5b6fddb3af20d434e5b1227c6b008ea0" alt="">
+                                      <div class="categorie">
+                                        <a href="/us">NEWS</a>
+                                      </div>
+                                    </div>
+                                    <h3>
+                                      <a class="font-weight-bold text-black link-underline" href="#">
+                                        Dr. Fauci Backed Controversial Wuhan Lab with Millions of U.S. Dollars
+                                      </a>
+                                  </h3>
+                                  <div class="summary">
+                                    Biomedical research ultimately helps protect public health, Fauci argued. The Wuhan lab that received U.S. taxpayer money is suspected of playing a role in starting the Covid-19 pandemic.</div>
+                                </div>
+                                <div class="wrap">
+                                    <div class="card">
+                                      <img class="img-fluid" src="https://d.newsweek.com/en/full/1585372/fauci-trump-corornavirus-covid-19-pandemic-research-nih.jpg?w=397&amp;h=265&amp;q=90&amp;f=5b6fddb3af20d434e5b1227c6b008ea0" alt="">
+                                      <div class="categorie">
+                                        <a href="/us">NEWS</a>
+                                      </div>
+                                    </div>
+                                    <h3>
+                                      <a class="font-weight-bold text-black link-underline" href="#">
+                                        Dr. Fauci Backed Controversial Wuhan Lab with Millions of U.S. Dollars
+                                      </a>
+                                  </h3>
+                                  <div class="summary">
+                                    Biomedical research ultimately helps protect public health, Fauci argued. The Wuhan lab that received U.S. taxpayer money is suspected of playing a role in starting the Covid-19 pandemic.</div>
+                                </div>
+                                <div class="wrap">
+                                    <div class="card">
+                                      <img class="img-fluid" src="https://d.newsweek.com/en/full/1585372/fauci-trump-corornavirus-covid-19-pandemic-research-nih.jpg?w=397&amp;h=265&amp;q=90&amp;f=5b6fddb3af20d434e5b1227c6b008ea0" alt="">
+                                      <div class="categorie">
+                                        <a href="/us">NEWS</a>
+                                      </div>
+                                    </div>
+                                    <h3>
+                                      <a class="font-weight-bold text-black link-underline" href="#">
+                                        Dr. Fauci Backed Controversial Wuhan Lab with Millions of U.S. Dollars
+                                      </a>
+                                  </h3>
+                                  <div class="summary">
+                                    Biomedical research ultimately helps protect public health, Fauci argued. The Wuhan lab that received U.S. taxpayer money is suspected of playing a role in starting the Covid-19 pandemic.</div>
+                                </div>
+                                <div class="wrap">
+                                    <div class="card">
+                                      <img class="img-fluid" src="https://d.newsweek.com/en/full/1585372/fauci-trump-corornavirus-covid-19-pandemic-research-nih.jpg?w=397&amp;h=265&amp;q=90&amp;f=5b6fddb3af20d434e5b1227c6b008ea0" alt="">
+                                      <div class="categorie">
+                                        <a href="/us">NEWS</a>
+                                      </div>
+                                    </div>
+                                    <h3>
+                                      <a class="font-weight-bold text-black link-underline" href="#">
+                                        Dr. Fauci Backed Controversial Wuhan Lab with Millions of U.S. Dollars
+                                      </a>
+                                  </h3>
+                                  <div class="summary">
+                                    Biomedical research ultimately helps protect public health, Fauci argued. The Wuhan lab that received U.S. taxpayer money is suspected of playing a role in starting the Covid-19 pandemic.</div>
+                                </div>
+                                <div class="wrap">
+                                    <div class="card">
+                                      <img class="img-fluid" src="https://d.newsweek.com/en/full/1585372/fauci-trump-corornavirus-covid-19-pandemic-research-nih.jpg?w=397&amp;h=265&amp;q=90&amp;f=5b6fddb3af20d434e5b1227c6b008ea0" alt="">
+                                      <div class="categorie">
+                                        <a href="/us">NEWS</a>
+                                      </div>
+                                    </div>
+                                    <h3>
+                                      <a class="font-weight-bold text-black link-underline" href="#">
+                                        Dr. Fauci Backed Controversial Wuhan Lab with Millions of U.S. Dollars
+                                      </a>
+                                  </h3>
+                                  <div class="summary">
+                                    Biomedical research ultimately helps protect public health, Fauci argued. The Wuhan lab that received U.S. taxpayer money is suspected of playing a role in starting the Covid-19 pandemic.</div>
+                                </div>
+                                <div class="wrap">
+                                    <div class="card">
+                                      <img class="img-fluid" src="https://d.newsweek.com/en/full/1585372/fauci-trump-corornavirus-covid-19-pandemic-research-nih.jpg?w=397&amp;h=265&amp;q=90&amp;f=5b6fddb3af20d434e5b1227c6b008ea0" alt="">
+                                      <div class="categorie">
+                                        <a href="/us">NEWS</a>
+                                      </div>
+                                    </div>
+                                    <h3>
+                                      <a class="font-weight-bold text-black link-underline" href="#">
+                                        Dr. Fauci Backed Controversial Wuhan Lab with Millions of U.S. Dollars
+                                      </a>
+                                  </h3>
+                                  <div class="summary">
+                                    Biomedical research ultimately helps protect public health, Fauci argued. The Wuhan lab that received U.S. taxpayer money is suspected of playing a role in starting the Covid-19 pandemic.</div>
+                                </div>
+                    </article>
+                    <article class="col-lg-5">
+                        <div class="content mx-auto">
+                            <div class="block-title font-weight-bold">
+                                TOP STORY
                             </div>
-                        </article>
-                    </section>
-                    <section class="col-sm-12 col-xm-12">
-                        <h4 class="text-muted section-title">FEATURE STORIES</4>
-                        <article class="card" style="width: 20rem;">
-                            <img src="https://d.newsweek.com/en/full/1585372/fauci-trump-corornavirus-covid-19-pandemic-research-nih.jpg?w=397&amp;h=265&amp;q=90&amp;f=5b6fddb3af20d434e5b1227c6b008ea0" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title"><a href="/">Dr. Fauci Backed Controversial Wuhan Lab with Millions of U.S. Dollars</a></h5>
-                                <p class="card-text">Biomedical research ultimately helps protect public health, Fauci argued. The Wuhan lab that received U.S. taxpayer money is suspected of playing a role in starting the Covid-19 pandemic.</p>
-                            </div>
-                        </article>
-                        <article class="card" style="width: 20rem;">
-                            <img src="https://d.newsweek.com/en/full/1585520/coronavirus-covid19-getty.jpg?w=397&amp;h=265&amp;l=0&amp;t=0&amp;q=90&amp;f=c08049eebf582007e8bd24dd6a85664b" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title"><a href="/">Men Twice As Likely to Die From COVID-19 Than Women: Study</a></h5>
-                                <p class="card-text">Professor Jenny Graves of Australia's La Trobe University believes a combination of genes, hormones, behavior, and the immune system may make men more susceptible to the disease.</p>
-                            </div>
-                        </article>
-                        <article class="card" style="width: 20rem;">
-                            <img src="https://d.newsweek.com/en/full/1585534/whitmer.jpg?w=397&amp;h=265&amp;q=90&amp;f=36a289cb5e7b1120f3156544ffd08848" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title"><a href="/">Michigan's Governor Whitmer Sued Again Over State's Stay-At-Home Order</a></h5>
-                                <p class="card-text">Whitmer's divisive "Stay Home, Stay Safe" executive order is due to end on May 15.</p>
-                            </div>
-                        </article>
-                        <article class="card" style="width: 20rem;">
-                            <img src="https://d.newsweek.com/en/full/1585547/coronavirus-covid19-queensland-australia.jpg?w=397&amp;h=265&amp;q=90&amp;f=565c3fa47824f6001a7827c7ac8f6673" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title"><a href="/">COVID-19 Vaccine Being Developed in Australia Appears to Neutralize Virus</a></h5>
-                                <p class="card-text">There is currently no vaccine to prevent COVID-19.</p>
-                            </div>
-                        </article>
-                    </section>
-                
-                    <section class="col-sm-12 col-xm-12">
+                                <div class="wrap">
+                                    <div class="card">
+                                      <img class="img-fluid" src="https://d.newsweek.com/en/full/1586726/north-korean-leader-kim-jong-un.jpg?w=591&amp;h=364&amp;f=094a740a279dbf7a0802c04e7f2b7272" alt="">
+                                      <div class="categorie">
+                                        <a href="/us">WORLD</a>
+                                      </div>
+                                    </div>
+                                    <h3>
+                                      <a class="font-weight-bold text-black link-underline" href="#">
+                                        North Korean Leader Kim Jong Un Appears in Public, Ending Weeks of Speculation About His Health
+                                      </a>
+                                  </h3>
+                                  <div class="summary">
+                                    Previous to now, the head of state hadn't been publicly seen for two weeks, raising concerns about his health and rumors about his disappearance amid the coronavirus epidemic.
+                                  </div>
+                                </div>
+                                <div class="block-title font-weight-bold">
+                                    HEROS OF THE PANDEMIC
+                                </div>
+                                <div class="card-deck">
+                                    <div class="card">
+                                        <img class="card-img-top" src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg?w=397&amp;h=397&amp;f=f7a624e81aa902878bb39d5fe83e971f" alt="Imagem de capa do card">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Teenagers Shop for the Vulnerable During Coronavirus Emergency</h5>
+                                        <p class="card-text"><small class="text-muted">"I almost cried," said a user of Six Feet Supplies, a charity started by teenagers who shop for those susceptible to COVID-19.</small></p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img class="card-img-top" src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg?w=397&amp;h=397&amp;f=f7a624e81aa902878bb39d5fe83e971f" alt="Imagem de capa do card">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Teenagers Shop for the Vulnerable During Coronavirus Emergency</h5>
+                                        <p class="card-text"><small class="text-muted">"I almost cried," said a user of Six Feet Supplies, a charity started by teenagers who shop for those susceptible to COVID-19.</small></p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img class="card-img-top" src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg?w=397&amp;h=397&amp;f=f7a624e81aa902878bb39d5fe83e971f" alt="Imagem de capa do card">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Teenagers Shop for the Vulnerable During Coronavirus Emergency</h5>
+                                        <p class="card-text"><small class="text-muted">"I almost cried," said a user of Six Feet Supplies, a charity started by teenagers who shop for those susceptible to COVID-19.</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="block-title font-weight-bold">
+                                    CULTURE & TRAVEL
+                                </div>
+                                <div class="card-deck">
+                                    <div class="card">
+                                        <img class="card-img-top" src="https://d.newsweek.com/en/full/1583546/jane-goodall-gombe-national-park.jpg?w=397&amp;h=397&amp;f=f50a96dc831960add317ee03eb1794d2" alt="Imagem de capa do card">
+                                        <div class="card-body">
+                                        <h5 class="card-title">A Conversation With Jane Goodall on the Pandemic and Hope for the Planet</h5>
+                                        <p class="card-text"><small class="text-muted">Goodall talks to Newsweek about the pandemic, her new documentary and the most important message she hopes her life's work leaves behind.</small></p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img class="card-img-top" src="https://d.newsweek.com/en/full/1584160/hope-barn-ny.jpg?w=397&amp;h=397&amp;f=1e30618c2488cd788e57b125fc16a72c" alt="Imagem de capa do card">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Signs of Hope and Gratitude in the Time of Coronavirus, in Photos</h5>
+                                        <p class="card-text"><small class="text-muted">Need a dose of positivity now? These photos of homemade pandemic signs show thanks to those on the front line and boost morale for those locked down at home.</small></p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <img class="card-img-top" src="https://d.newsweek.com/en/full/1585036/blueberry-almond-banana-bread.jpg?w=397&amp;h=397&amp;f=47ad51e0643821345df8808f29282804" alt="Imagem de capa do card">
+                                        <div class="card-body">
+                                        <h3 class="card-title">Bread Baking Is on the Rise: Drool-Worthy Photos Beyond Sourdough</h3>
+                                        <p class="card-text"><small class="text-muted">How's your sourdough starter looking? Take a look at these drool-worthy photos for baking ideas we found via Bread Instagram—some don't even require yeast (which is hard to find these days).</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="block-title font-weight-bold text-muted">
+                                    MORE STORIES
+                                </div>
+                                    <ul class="list-unstyled">
+                                        <li class="media">
+                                          <img src="https://d.newsweek.com/en/full/1585512/de-blasio.jpg?w=95&amp;h=95&amp;f=97362c74ec521734b43e5822e98ba025" alt="de Blasio" class="mr-3" alt="...">
+                                          <div class="media-body">
+                                            <h5 class="card-title"><a class="text-dark" href="/">New York Mayor De Blasio Orders Arrests to Break up Large Gatherings</a></h5>
+                                            I have instructed the NYPD to proceed immediately to summons or even arrest those who gather in large groups," de Blasio said.
+                                          </div>
+                                        </li>
+                                        <li class="media my-4">
+                                          <img src="https://d.newsweek.com/en/full/1585514/donald-trump.jpg?w=95&amp;h=95&amp;f=32d16a21e58c9391b729d44cfa8a6d8b" class="mr-3" alt="...">
+                                          <div class="media-body">
+                                            <h5 class="card-title"><a class="text-dark" href="/">New York Mayor De Blasio Orders Arrests to Break up Large Gatherings</a></h5>
+                                            I have instructed the NYPD to proceed immediately to summons or even arrest those who gather in large groups," de Blasio said.
+                                          </div>
+                                        </li>
+                                        <li class="media my-4">
+                                            <img src="https://d.newsweek.com/en/full/1585563/el-paso-texas-coronavirus-protest-april-2020.jpg?w=95&amp;h=95&amp;f=daefde2bb867e8442d0d073cfda8a16c" class="mr-3" alt="...">
+                                            <div class="media-body">
+                                                <h5 class="card-title"><a class="text-dark" href="/">New York Mayor De Blasio Orders Arrests to Break up Large Gatherings</a></h5>
+                                                I have instructed the NYPD to proceed immediately to summons or even arrest those who gather in large groups," de Blasio said.
+                                            </div>
+                                          </li>
+                                          <li class="media my-4">
+                                            <img src="https://d.newsweek.com/en/full/1581778/boston-red-sox-fenway-park.jpg?w=95&amp;h=95&amp;f=c43a3dcc32f674e11894e41db39d1f1d" class="mr-3" alt="...">
+                                            <div class="media-body">
+                                                <h5 class="card-title"><a class="text-dark" href="/">New York Mayor De Blasio Orders Arrests to Break up Large Gatherings</a></h5>
+                                                I have instructed the NYPD to proceed immediately to summons or even arrest those who gather in large groups," de Blasio said.
+                                            </div>
+                                          </li>
+                                          <li class="media my-4">
+                                            <img src="https://d.newsweek.com/en/full/1585629/japan-health-virus.jpg?w=95&amp;h=95&amp;f=3ac6611c4e23b898bdf437778dfe8904" alt=" JAPAN-HEALTH-VIRUS" class="mr-3" alt="...">
+                                            <div class="media-body">
+                                                <h5 class="card-title"><a class="text-dark" href="/">New York Mayor De Blasio Orders Arrests to Break up Large Gatherings</a></h5>
+                                                I have instructed the NYPD to proceed immediately to summons or even arrest those who gather in large groups," de Blasio said.
+                                            </div>
+                                          </li>
+                                          <li class="media my-4">
+                                            <img src="https://d.newsweek.com/en/full/1585643/geng-shuang-russia-us-china-coronavirus-laboratory.jpg?w=95&amp;h=95&amp;f=c26c9b5e0ee10a286b104dc7f5dbfd25" class="mr-3" alt="...">
+                                            <div class="media-body">
+                                                <h5 class="card-title"><a class="text-dark" href="/">New York Mayor De Blasio Orders Arrests to Break up Large Gatherings</a></h5>
+                                                I have instructed the NYPD to proceed immediately to summons or even arrest those who gather in large groups," de Blasio said.
+                                            </div>
+                                          </li>
+                                          <li class="media my-4">
+                                            <img src="https://d.newsweek.com/en/full/1585606/south-carolina-sen-lindsey-graham.jpg?w=95&amp;h=95&amp;f=1cb5b9906e87d818fed9f9d2db48d7dd" class="mr-3" alt="...">
+                                            <div class="media-body">
+                                                <h5 class="card-title"><a class="text-dark" href="/">New York Mayor De Blasio Orders Arrests to Break up Large Gatherings</a></h5>
+                                                I have instructed the NYPD to proceed immediately to summons or even arrest those who gather in large groups," de Blasio said.
+                                            </div>
+                                          </li>
+                                          <li class="media my-4">
+                                            <img src="https://d.newsweek.com/en/full/1585400/donald-trump-defense-production-act-meat-coronavirus.jpg?w=95&amp;h=95&amp;f=bd934adbd1dfc281f52c3e6cc364790d" alt="donald trump defense production act meat coronavirus" class="mr-3" alt="...">
+                                            <div class="media-body">
+                                                <h5 class="card-title"><a class="text-dark" href="/">New York Mayor De Blasio Orders Arrests to Break up Large Gatherings</a></h5>
+                                                I have instructed the NYPD to proceed immediately to summons or even arrest those who gather in large groups," de Blasio said.
+                                            </div>
+                                          </li>
+                                          <li class="media my-4">
+                                            <img src="https://d.newsweek.com/en/full/1585552/senate-majority-leader-mitch-mcconnell.jpg?w=95&amp;h=95&amp;f=fe582d22302074047fcccdb980c80afb" alt="Senate Majority Leader Mitch McConnell" class="mr-3" alt="...">
+                                            <div class="media-body">
+                                                <h5 class="card-title"><a class="text-dark" href="/">New York Mayor De Blasio Orders Arrests to Break up Large Gatherings</a></h5>
+                                                I have instructed the NYPD to proceed immediately to summons or even arrest those who gather in large groups," de Blasio said.
+                                            </div>
+                                          </li>
+                                          <li class="media my-4">
+                                            <img src="https://d.newsweek.com/en/full/1585631/coronavirus-us.jpg?w=95&amp;h=95&amp;f=9f161640a5983e0877447c1ed38c777f" class="mr-3" alt="...">
+                                            <div class="media-body">
+                                                <h5 class="card-title"><a class="text-dark" href="/">New York Mayor De Blasio Orders Arrests to Break up Large Gatherings</a></h5>
+                                                I have instructed the NYPD to proceed immediately to summons or even arrest those who gather in large groups," de Blasio said.
+                                            </div>
+                                          </li>
+                                        <li class="media">
+                                          <img src="https://d.newsweek.com/en/full/1585583/donald-trump-china-coronavirus-state-media-guilt.jpg?w=95&amp;h=95&amp;f=b9dfb885e6c612d8a90d13e10611da08" class="mr-3" alt="...">
+                                          <div class="media-body">
+                                            <h5 class="mt-0 mb-1">List-based media object</h5>
+                                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                          </div>
+                                        </li>
+                                    </ul>
+                        </div>            
+                    </article>
+                     
+                    <section class="col-lg">
                         <h4 class="text-muted section-title">OPINION</4>
                         <div class="d-flex justify-content-between opinion-article" style="width: 20rem">
                             <div>
@@ -180,27 +450,87 @@
                                 <p class="card-text">BY ROBERT REICH</p>
                             </div>
                         </div>
-                    </section>
-                    <section class="col-sm-12 col-xm-12">
                         <h4 class="text-muted section-title">THE DEBATE</4>
-                        <div class="media d-flex debate" style="width: 20rem">
-                            <img src="https://d.newsweek.com/en/full/1582305/trump-pence.jpg?w=95&amp;h=95&amp;f=aa2c025d06da441a82387c13a24756c7" class="mr-3" alt="...">
-                            <div class="media-body">
-                                <p class="card-title"><a class="text-dark" href="/">Trump's Right. The WHO Is Not Fit for Purpose</a></p>
+                            <div class="media d-flex debate" style="width: 20rem">
+                                <img src="https://d.newsweek.com/en/full/1582305/trump-pence.jpg?w=95&amp;h=95&amp;f=aa2c025d06da441a82387c13a24756c7" class="mr-3" alt="...">
+                                <div class="media-body">
+                                    <p class="card-title"><a class="text-dark" href="/">Trump's Right. The WHO Is Not Fit for Purpose</a></p>
+                                </div>
                             </div>
-                        </div>
-                        <p>BY <a>NIGEL FARAGE</a></p>
-                        <div class="d-flex justify-content-center" style="width: 20rem">
-                            <button class="VS-button">VS</button>
-                        </div>
-                        <div class="media d-flex debate" style="width: 20rem">
-                            <img src="https://d.newsweek.com/en/full/1582345/donald-trump.jpg?w=95&amp;h=95&amp;f=e0440aa96094bb88d352743ed52efdc1" class="mr-3" alt="...">
-                            <div class="media-body">
-                                <p class="card-title"><a class="text-dark" href="/">Defunding the WHO Mid-Pandemic Is Lunacy</a></p>
+                            <p>BY <a>NIGEL FARAGE</a></p>
+                            <div class="d-flex justify-content-center" style="width: 20rem">
+                                <button class="VS-button">VS</button>
                             </div>
-                        </div>
-                        <p>BY <a>JAMIE METZL</a></p>
+                            <div class="media d-flex debate" style="width: 20rem">
+                                <img src="https://d.newsweek.com/en/full/1582345/donald-trump.jpg?w=95&amp;h=95&amp;f=e0440aa96094bb88d352743ed52efdc1" class="mr-3" alt="...">
+                                <div class="media-body">
+                                    <p class="card-title"><a class="text-dark" href="/">Defunding the WHO Mid-Pandemic Is Lunacy</a></p>
+                                </div>
+                            </div>
+                            <p>BY <a>JAMIE METZL</a></p>
+                            <h4 class="text-muted section-title">LASTEST NEWS</4>
+                                <ul class="list-unstyled">
+                                    <li class="media" style="width: 20rem;">
+                                      <img src="https://d.newsweek.com/en/full/1585774/nasa-space-shuttle-photo.jpg?w=95&amp;h=95&amp;f=f3defe9885e4872d3cf7a60f4e92946c" alt="de Blasio" class="mr-3" alt="...">
+                                      <div class="media-body">
+                                        <h5 class="card-title"><a class="text-dark" href="/">This Close-Up of a Space Shuttle Taking Off Is Truly Out Of This World</a></h5>
+                                      </div>
+                                    </li>
+                                    <li class="media my-4" style="width: 20rem;">
+                                        <img src="https://d.newsweek.com/en/full/1585774/nasa-space-shuttle-photo.jpg?w=95&amp;h=95&amp;f=f3defe9885e4872d3cf7a60f4e92946c" alt="de Blasio" class="mr-3" alt="...">
+                                        <div class="media-body">
+                                          <h5 class="card-title"><a class="text-dark" href="/">This Close-Up of a Space Shuttle Taking Off Is Truly Out Of This World</a></h5>
+                                        </div>
+                                    </li>
+                                    <li class="media my-4" style="width: 20rem;">
+                                        <img src="https://d.newsweek.com/en/full/1585774/nasa-space-shuttle-photo.jpg?w=95&amp;h=95&amp;f=f3defe9885e4872d3cf7a60f4e92946c" alt="de Blasio" class="mr-3" alt="...">
+                                        <div class="media-body">
+                                            <h5 class="card-title"><a class="text-dark" href="/">This Close-Up of a Space Shuttle Taking Off Is Truly Out Of This World</a></h5>
+                                        </div>
+                                    </li>
+                                    <li class="media my-4" style="width: 20rem;">
+                                        <img src="https://d.newsweek.com/en/full/1585774/nasa-space-shuttle-photo.jpg?w=95&amp;h=95&amp;f=f3defe9885e4872d3cf7a60f4e92946c" alt="de Blasio" class="mr-3" alt="...">
+                                        <div class="media-body">
+                                        <h5 class="card-title"><a class="text-dark" href="/">This Close-Up of a Space Shuttle Taking Off Is Truly Out Of This World</a></h5>
+                                        </div>
+                                    </li>
+                                    <li class="media my-4" style="width: 20rem;">
+                                        <img src="https://d.newsweek.com/en/full/1585774/nasa-space-shuttle-photo.jpg?w=95&amp;h=95&amp;f=f3defe9885e4872d3cf7a60f4e92946c" alt="de Blasio" class="mr-3" alt="...">
+                                        <div class="media-body">
+                                        <h5 class="card-title"><a class="text-dark" href="/">This Close-Up of a Space Shuttle Taking Off Is Truly Out Of This World</a></h5>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <article class="card" style="width: 20rem;">
+                                    <img src="https://d.newsweek.com/en/full/1580693/university-north-carolina-asheville.jpg?w=500&amp;h=333&amp;f=3ba9545ca2c492633c28f4c6a42fcd53" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><a href="/">What Sets the Leading Liberal Arts Schools Apart?</a></h5>
+                                        <p class="card-text">There are a number of great Liberal Arts Schools in the USA today, but what qualities do the best of them have?</p>
+                                    </div>
+                                </article>
+                                <article class="card" style="width: 20rem;">
+                                    <img src="https://d.newsweek.com/en/full/1580693/university-north-carolina-asheville.jpg?w=500&amp;h=333&amp;f=3ba9545ca2c492633c28f4c6a42fcd53" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><a href="/">What Sets the Leading Liberal Arts Schools Apart?</a></h5>
+                                        <p class="card-text">There are a number of great Liberal Arts Schools in the USA today, but what qualities do the best of them have?</p>
+                                    </div>
+                                </article>
+                                <article class="card" style="width: 20rem;">
+                                    <img src="https://d.newsweek.com/en/full/1580693/university-north-carolina-asheville.jpg?w=500&amp;h=333&amp;f=3ba9545ca2c492633c28f4c6a42fcd53" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><a href="/">What Sets the Leading Liberal Arts Schools Apart?</a></h5>
+                                        <p class="card-text">There are a number of great Liberal Arts Schools in the USA today, but what qualities do the best of them have?</p>
+                                    </div>
+                                </article>
+                                <article class="card" style="width: 20rem;">
+                                    <img src="https://d.newsweek.com/en/full/1580693/university-north-carolina-asheville.jpg?w=500&amp;h=333&amp;f=3ba9545ca2c492633c28f4c6a42fcd53" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><a href="/">What Sets the Leading Liberal Arts Schools Apart?</a></h5>
+                                        <p class="card-text">There are a number of great Liberal Arts Schools in the USA today, but what qualities do the best of them have?</p>
+                                    </div>
+                                </article>        
                     </section>
+                    
                     <section class="col-sm-12 col-xm-12">
                         <article class="card" style="width: 20rem;">
                             <img src="https://d.newsweek.com/en/full/1575945/cybersecurity-vantage-hp-sponsor.jpg?w=500&amp;h=333&amp;f=ac517642217c0d9cec695be60008ce2a" class="card-img-top" alt="...">
@@ -231,224 +561,25 @@
                             </div>
                         </article>
                     </section>
-                    <section class="col-sm-12 col-xm-12">
-                        <h4 class="text-muted section-title">MORE STORIES</4>
-                        <ul class="list-unstyled">
-                            <li class="media" style="width: 20rem;">
-                              <img src="https://d.newsweek.com/en/full/1585512/de-blasio.jpg?w=95&amp;h=95&amp;f=97362c74ec521734b43e5822e98ba025" alt="de Blasio" class="mr-3" alt="...">
-                              <div class="media-body">
-                                <h5 class="card-title"><a class="text-dark" href="/">New York Mayor De Blasio Orders Arrests to Break up Large Gatherings</a></h5>
-                                I have instructed the NYPD to proceed immediately to summons or even arrest those who gather in large groups," de Blasio said.
-                              </div>
-                            </li>
-                            <li class="media my-4" style="width: 20rem;">
-                              <img src="https://d.newsweek.com/en/full/1585514/donald-trump.jpg?w=95&amp;h=95&amp;f=32d16a21e58c9391b729d44cfa8a6d8b" class="mr-3" alt="...">
-                              <div class="media-body">
-                                <h5 class="card-title"><a class="text-dark" href="/">New York Mayor De Blasio Orders Arrests to Break up Large Gatherings</a></h5>
-                                I have instructed the NYPD to proceed immediately to summons or even arrest those who gather in large groups," de Blasio said.
-                              </div>
-                            </li>
-                            <li class="media my-4" style="width: 20rem;">
-                                <img src="https://d.newsweek.com/en/full/1585563/el-paso-texas-coronavirus-protest-april-2020.jpg?w=95&amp;h=95&amp;f=daefde2bb867e8442d0d073cfda8a16c" class="mr-3" alt="...">
-                                <div class="media-body">
-                                    <h5 class="card-title"><a class="text-dark" href="/">New York Mayor De Blasio Orders Arrests to Break up Large Gatherings</a></h5>
-                                    I have instructed the NYPD to proceed immediately to summons or even arrest those who gather in large groups," de Blasio said.
-                                </div>
-                              </li>
-                              <li class="media my-4" style="width: 20rem;">
-                                <img src="https://d.newsweek.com/en/full/1581778/boston-red-sox-fenway-park.jpg?w=95&amp;h=95&amp;f=c43a3dcc32f674e11894e41db39d1f1d" class="mr-3" alt="...">
-                                <div class="media-body">
-                                    <h5 class="card-title"><a class="text-dark" href="/">New York Mayor De Blasio Orders Arrests to Break up Large Gatherings</a></h5>
-                                    I have instructed the NYPD to proceed immediately to summons or even arrest those who gather in large groups," de Blasio said.
-                                </div>
-                              </li>
-                              <li class="media my-4" style="width: 20rem;">
-                                <img src="https://d.newsweek.com/en/full/1585629/japan-health-virus.jpg?w=95&amp;h=95&amp;f=3ac6611c4e23b898bdf437778dfe8904" alt=" JAPAN-HEALTH-VIRUS" class="mr-3" alt="...">
-                                <div class="media-body">
-                                    <h5 class="card-title"><a class="text-dark" href="/">New York Mayor De Blasio Orders Arrests to Break up Large Gatherings</a></h5>
-                                    I have instructed the NYPD to proceed immediately to summons or even arrest those who gather in large groups," de Blasio said.
-                                </div>
-                              </li>
-                              <li class="media my-4" style="width: 20rem;">
-                                <img src="https://d.newsweek.com/en/full/1585643/geng-shuang-russia-us-china-coronavirus-laboratory.jpg?w=95&amp;h=95&amp;f=c26c9b5e0ee10a286b104dc7f5dbfd25" class="mr-3" alt="...">
-                                <div class="media-body">
-                                    <h5 class="card-title"><a class="text-dark" href="/">New York Mayor De Blasio Orders Arrests to Break up Large Gatherings</a></h5>
-                                    I have instructed the NYPD to proceed immediately to summons or even arrest those who gather in large groups," de Blasio said.
-                                </div>
-                              </li>
-                              <li class="media my-4" style="width: 20rem;">
-                                <img src="https://d.newsweek.com/en/full/1585606/south-carolina-sen-lindsey-graham.jpg?w=95&amp;h=95&amp;f=1cb5b9906e87d818fed9f9d2db48d7dd" class="mr-3" alt="...">
-                                <div class="media-body">
-                                    <h5 class="card-title"><a class="text-dark" href="/">New York Mayor De Blasio Orders Arrests to Break up Large Gatherings</a></h5>
-                                    I have instructed the NYPD to proceed immediately to summons or even arrest those who gather in large groups," de Blasio said.
-                                </div>
-                              </li>
-                              <li class="media my-4" style="width: 20rem;">
-                                <img src="https://d.newsweek.com/en/full/1585400/donald-trump-defense-production-act-meat-coronavirus.jpg?w=95&amp;h=95&amp;f=bd934adbd1dfc281f52c3e6cc364790d" alt="donald trump defense production act meat coronavirus" class="mr-3" alt="...">
-                                <div class="media-body">
-                                    <h5 class="card-title"><a class="text-dark" href="/">New York Mayor De Blasio Orders Arrests to Break up Large Gatherings</a></h5>
-                                    I have instructed the NYPD to proceed immediately to summons or even arrest those who gather in large groups," de Blasio said.
-                                </div>
-                              </li>
-                              <li class="media my-4" style="width: 20rem;">
-                                <img src="https://d.newsweek.com/en/full/1585552/senate-majority-leader-mitch-mcconnell.jpg?w=95&amp;h=95&amp;f=fe582d22302074047fcccdb980c80afb" alt="Senate Majority Leader Mitch McConnell" class="mr-3" alt="...">
-                                <div class="media-body">
-                                    <h5 class="card-title"><a class="text-dark" href="/">New York Mayor De Blasio Orders Arrests to Break up Large Gatherings</a></h5>
-                                    I have instructed the NYPD to proceed immediately to summons or even arrest those who gather in large groups," de Blasio said.
-                                </div>
-                              </li>
-                              <li class="media my-4" style="width: 20rem;">
-                                <img src="https://d.newsweek.com/en/full/1585631/coronavirus-us.jpg?w=95&amp;h=95&amp;f=9f161640a5983e0877447c1ed38c777f" class="mr-3" alt="...">
-                                <div class="media-body">
-                                    <h5 class="card-title"><a class="text-dark" href="/">New York Mayor De Blasio Orders Arrests to Break up Large Gatherings</a></h5>
-                                    I have instructed the NYPD to proceed immediately to summons or even arrest those who gather in large groups," de Blasio said.
-                                </div>
-                              </li>
-                            <li class="media" style="width: 20rem;">
-                              <img src="https://d.newsweek.com/en/full/1585583/donald-trump-china-coronavirus-state-media-guilt.jpg?w=95&amp;h=95&amp;f=b9dfb885e6c612d8a90d13e10611da08" class="mr-3" alt="...">
-                              <div class="media-body">
-                                <h5 class="mt-0 mb-1">List-based media object</h5>
-                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                              </div>
-                            </li>
-                        </ul>
-                    </section>
-                    <section class="col-sm-12 col-xm-12">
-                        <h4 class="text-muted section-title">HEROES OF THE PANDEMIC</4>
-                        <article class="card" style="width: 20rem;">
-                            <img src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg?w=397&amp;h=397&amp;f=f7a624e81aa902878bb39d5fe83e971f" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title"><a href="/">Teenagers Shop for the Vulnerable During Coronavirus Emergency</a></h5>
-                                <p class="card-text">"I almost cried," said a user of Six Feet Supplies, a charity started by teenagers who shop for those susceptible to COVID-19.</p>
-                            </div>
-                        </article>
-                        <article class="card" style="width: 20rem;">
-                            <img src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg?w=397&amp;h=397&amp;f=f7a624e81aa902878bb39d5fe83e971f" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title"><a href="/">Teenagers Shop for the Vulnerable During Coronavirus Emergency</a></h5>
-                                <p class="card-text">"I almost cried," said a user of Six Feet Supplies, a charity started by teenagers who shop for those susceptible to COVID-19.</p>
-                            </div>
-                        </article>
-                        <article class="card" style="width: 20rem;">
-                            <img src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg?w=397&amp;h=397&amp;f=f7a624e81aa902878bb39d5fe83e971f" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title"><a href="/">Teenagers Shop for the Vulnerable During Coronavirus Emergency</a></h5>
-                                <p class="card-text">"I almost cried," said a user of Six Feet Supplies, a charity started by teenagers who shop for those susceptible to COVID-19.</p>
-                            </div>
-                        </article>
-                    </section>
-                    <section class="col-sm-12 col-xm-12">
-                        <h4 class="text-muted section-title">   CULTURE & TRAVEL</4>
-                        <article class="card" style="width: 20rem;">
-                            <img src="https://d.newsweek.com/en/full/1583546/jane-goodall-gombe-national-park.jpg?w=397&amp;h=397&amp;f=f50a96dc831960add317ee03eb1794d2" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title"><a href="/">A Conversation With Jane Goodall on the Pandemic and Hope for the Planet</a></h5>
-                                <p class="card-text">Goodall talks to Newsweek about the pandemic, her new documentary and the most important message she hopes her life's work leaves behind.</p>
-                            </div>
-                        </article>
-                        <article class="card" style="width: 20rem;">
-                            <img src="https://d.newsweek.com/en/full/1583546/jane-goodall-gombe-national-park.jpg?w=397&amp;h=397&amp;f=f50a96dc831960add317ee03eb1794d2" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title"><a href="/">A Conversation With Jane Goodall on the Pandemic and Hope for the Planet</a></h5>
-                                <p class="card-text">Goodall talks to Newsweek about the pandemic, her new documentary and the most important message she hopes her life's work leaves behind.</p>
-                            </div>
-                        </article>
-                        <article class="card" style="width: 20rem;">
-                            <img src="https://d.newsweek.com/en/full/1583546/jane-goodall-gombe-national-park.jpg?w=397&amp;h=397&amp;f=f50a96dc831960add317ee03eb1794d2" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title"><a href="/">A Conversation With Jane Goodall on the Pandemic and Hope for the Planet</a></h5>
-                                <p class="card-text">Goodall talks to Newsweek about the pandemic, her new documentary and the most important message she hopes her life's work leaves behind.</p>
-                            </div>
-                        </article>
-                    </section>
-                    <section class="col-sm-12 col-xm-12">
-                        <h4 class="text-muted section-title">LASTEST NEWS</4>
-                        <ul class="list-unstyled">
-                            <li class="media" style="width: 20rem;">
-                              <img src="https://d.newsweek.com/en/full/1585774/nasa-space-shuttle-photo.jpg?w=95&amp;h=95&amp;f=f3defe9885e4872d3cf7a60f4e92946c" alt="de Blasio" class="mr-3" alt="...">
-                              <div class="media-body">
-                                <h5 class="card-title"><a class="text-dark" href="/">This Close-Up of a Space Shuttle Taking Off Is Truly Out Of This World</a></h5>
-                              </div>
-                            </li>
-                            <li class="media my-4" style="width: 20rem;">
-                                <img src="https://d.newsweek.com/en/full/1585774/nasa-space-shuttle-photo.jpg?w=95&amp;h=95&amp;f=f3defe9885e4872d3cf7a60f4e92946c" alt="de Blasio" class="mr-3" alt="...">
-                                <div class="media-body">
-                                  <h5 class="card-title"><a class="text-dark" href="/">This Close-Up of a Space Shuttle Taking Off Is Truly Out Of This World</a></h5>
-                                </div>
-                            </li>
-                            <li class="media my-4" style="width: 20rem;">
-                                <img src="https://d.newsweek.com/en/full/1585774/nasa-space-shuttle-photo.jpg?w=95&amp;h=95&amp;f=f3defe9885e4872d3cf7a60f4e92946c" alt="de Blasio" class="mr-3" alt="...">
-                                <div class="media-body">
-                                    <h5 class="card-title"><a class="text-dark" href="/">This Close-Up of a Space Shuttle Taking Off Is Truly Out Of This World</a></h5>
-                                </div>
-                            </li>
-                            <li class="media my-4" style="width: 20rem;">
-                                <img src="https://d.newsweek.com/en/full/1585774/nasa-space-shuttle-photo.jpg?w=95&amp;h=95&amp;f=f3defe9885e4872d3cf7a60f4e92946c" alt="de Blasio" class="mr-3" alt="...">
-                                <div class="media-body">
-                                <h5 class="card-title"><a class="text-dark" href="/">This Close-Up of a Space Shuttle Taking Off Is Truly Out Of This World</a></h5>
-                                </div>
-                            </li>
-                            <li class="media my-4" style="width: 20rem;">
-                                <img src="https://d.newsweek.com/en/full/1585774/nasa-space-shuttle-photo.jpg?w=95&amp;h=95&amp;f=f3defe9885e4872d3cf7a60f4e92946c" alt="de Blasio" class="mr-3" alt="...">
-                                <div class="media-body">
-                                <h5 class="card-title"><a class="text-dark" href="/">This Close-Up of a Space Shuttle Taking Off Is Truly Out Of This World</a></h5>
-                                </div>
-                            </li>
-                        </ul>
-                    </section>
-                    <section class="col-sm-12 col-xm-12">
-                        <article class="card" style="width: 20rem;">
-                            <img src="https://d.newsweek.com/en/full/1580693/university-north-carolina-asheville.jpg?w=500&amp;h=333&amp;f=3ba9545ca2c492633c28f4c6a42fcd53" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title"><a href="/">What Sets the Leading Liberal Arts Schools Apart?</a></h5>
-                                <p class="card-text">There are a number of great Liberal Arts Schools in the USA today, but what qualities do the best of them have?</p>
-                            </div>
-                        </article>
-                        <article class="card" style="width: 20rem;">
-                            <img src="https://d.newsweek.com/en/full/1580693/university-north-carolina-asheville.jpg?w=500&amp;h=333&amp;f=3ba9545ca2c492633c28f4c6a42fcd53" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title"><a href="/">What Sets the Leading Liberal Arts Schools Apart?</a></h5>
-                                <p class="card-text">There are a number of great Liberal Arts Schools in the USA today, but what qualities do the best of them have?</p>
-                            </div>
-                        </article>
-                        <article class="card" style="width: 20rem;">
-                            <img src="https://d.newsweek.com/en/full/1580693/university-north-carolina-asheville.jpg?w=500&amp;h=333&amp;f=3ba9545ca2c492633c28f4c6a42fcd53" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title"><a href="/">What Sets the Leading Liberal Arts Schools Apart?</a></h5>
-                                <p class="card-text">There are a number of great Liberal Arts Schools in the USA today, but what qualities do the best of them have?</p>
-                            </div>
-                        </article>
-                        <article class="card" style="width: 20rem;">
-                            <img src="https://d.newsweek.com/en/full/1580693/university-north-carolina-asheville.jpg?w=500&amp;h=333&amp;f=3ba9545ca2c492633c28f4c6a42fcd53" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title"><a href="/">What Sets the Leading Liberal Arts Schools Apart?</a></h5>
-                                <p class="card-text">There are a number of great Liberal Arts Schools in the USA today, but what qualities do the best of them have?</p>
-                            </div>
-                        </article>        
-                    </section>
-                    <section class="col-sm-12 col-xm-12">
-                        <div class="logo-in-the-magazine" style="width: 20rem;">
-                            <img class="N-icon" src="./assets/imgs/N-icon.png" alt="N-icon">
-                            <p>IN THE MAGAZINE</p>
+                 
+                    <article>
+                        <div class="card" style="width: 15rem;">
+                            <img src="https://d.newsweek.com/en/full/1585087/may-08-15-2020-cover.jpg?w=360&amp;h=480&amp;q=90&amp;f=8daec16f29a5ed3617c83e11ff6a5019" class="card-img-top" alt="...">
                         </div>
+                        <h5 class="article-link d-flex justify-content-center" style="width: 20rem;">SEE ALL FEATURES&nbsp;&nbsp;></h5>
+                    </article>     
+                    <article>
+                        <div class="card" style="width: 15rem;">
+                            <img src="https://d.newsweek.com/en/full/1584979/classof2020.jpg?w=466&amp;h=311&amp;l=50&amp;t=50&amp;q=90&amp;f=d744de45e6705e6c455aeaa148669459" class="card-img-top" alt="...">
+                        </div>
+                        <div class="d-flex">
+                            <a href="#" class="btn btn-danger">FEATURES</a>
+                            <a href="#" class="btn btn-light btn-sm text-danger">EDUCATION</a>
+                        </div>
+                        <h5 class="article-link" style="width: 15rem;">The Class of 2020 Is All Dressed Up With Nowhere to Go</h5>
+                    </article>     
                         <article>
-                            <div class="card" style="width: 20rem;">
-                                <img src="https://d.newsweek.com/en/full/1585087/may-08-15-2020-cover.jpg?w=360&amp;h=480&amp;q=90&amp;f=8daec16f29a5ed3617c83e11ff6a5019" class="card-img-top" alt="...">
-                            </div>
-                            <h5 class="article-link d-flex justify-content-center" style="width: 20rem;">SEE ALL FEATURES&nbsp;&nbsp;></h5>
-                        </article> 
-                        <article>
-                            <div class="card" style="width: 20rem;">
-                                <img src="https://d.newsweek.com/en/full/1584979/classof2020.jpg?w=466&amp;h=311&amp;l=50&amp;t=50&amp;q=90&amp;f=d744de45e6705e6c455aeaa148669459" class="card-img-top" alt="...">
-                            </div>
-                            <div class="d-flex">
-                                <a href="#" class="btn btn-danger">FEATURES</a>
-                                <a href="#" class="btn btn-light btn-sm text-danger">EDUCATION</a>
-                            </div>
-                            <h5 class="article-link" style="width: 20rem;">The Class of 2020 Is All Dressed Up With Nowhere to Go</h5>
-                        </article> 
-                        <article>
-                            <div class="card" style="width: 20rem;">
+                            <div class="card" style="width: 15rem;">
                                 <img src="https://d.newsweek.com/en/full/1584593/fe-class-of-2020-sb-banner.jpg?w=466&amp;h=311&amp;l=50&amp;t=36&amp;q=90&amp;f=e11b27b246096d57a5865b0dc121b125" class="card-img-top" alt="...">
                             </div>
                             <div class="d-flex">
@@ -497,7 +628,9 @@
                             </div>
                             <h5 class="article-link" style="width: 20rem;">The Class of 2020 Is All Dressed Up With Nowhere to Go</h5>
                         </article>
-                    <section class="col-sm-12 col-xm-12 editor-pick-section">
+                        <div>
+                            
+                        </div>
                         <div class="logo-in-the-magazine editor-pick-logo" style="width: 20rem;">
                             <img class="N-icon" src="./assets/imgs/N-icon.png" alt="N-icon">
                             <p>EDITOR`S PICK</p>
@@ -558,7 +691,6 @@
                             <p style="width: 20rem;" class="editor-pick-title" ><a href="/">Famous Martian Meteorite Contains 4-Billion-Year-Old Organic Compounds</a></p>
                             <p class="editor-pick-article" style="width: 20rem;">"Organic molecules are those that contain chains and rings of carbon atoms linked together—like those used by life," said researcher Atsuko Kobayashi.</p>
                         </article>
-                    </section>
                     <section>
                         <h4 class="section-title text-danger">SUBSCRIBE</4>
                         <article class="newsletter">

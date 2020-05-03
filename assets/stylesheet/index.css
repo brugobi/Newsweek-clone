@@ -63,6 +63,10 @@
     font-size: 90px;
 }
 
+.header {
+    margin-bottom: 20px;
+}
+
 .nav a {
     color: black;
     font-weight: bold;
@@ -80,7 +84,7 @@
 /*###############################################-----CONTAINER----###############################################*/
 
 .container {
-    background-color: white;
+    background-color: rgb(241, 243, 245);
 }
 
 .section-title {
