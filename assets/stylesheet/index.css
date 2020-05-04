@@ -130,16 +130,39 @@ body {
     padding-bottom: 2px;
     border-bottom: solid 1px gray;
 }
+
+#feature {
+    order: 1;
+}
+
+#top {
+    order: 2;
+}
+
+#opinion {
+    order: 3;
+}
+
 /*###############################################-----MEDIA QUERY----###############################################*/
  
 /* Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
-@media (min-width: 576px) { 
+@media (max-width: 767px) { 
+    #feature {
+        order: 2;
+    }
     
+    #top {
+        order: 1;
+    }
+    
+    #opinion {
+        order: 3;
+    }
 }
 
 /*Dispositivos médios (tablets com 768px ou mais)*/
 @media (min-width: 768px) { 
-    
+   
 }
 
 /*Dispositivos large (desktops com 992px ou mais)*/
