@@ -111,42 +111,52 @@ body {
 }
 
 .opinion-title a {
-    text-decoration: none;
-    font-family: 'Roboto Condensed', sans-serif;
-    color: black;
-    font-weight: bold;
-    font-size: 17px;
+  text-decoration: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: black;
+  font-weight: bold;
+  font-size: 17px;
 }
 
 .opinion-title h6 :hover {
-    color: red;
+  color: red;
 }
 
 .opinion-title p {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 14px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 14px;
 }
 
 .opinion li {
-    padding-bottom: 2px;
-    border-bottom: solid 1px gray;
+  padding-bottom: 2px;
+  border-bottom: solid 1px gray;
 }
 
 #feature {
-    order: 1;
+  order: 1;
 }
 
 #top {
-    order: 2;
+  order: 2;
 }
 
 #opinion {
-    order: 3;
+  order: 3;
+}
+
+.magazine-section {
+    margin-bottom: 30px;
+    border-top: solid 2px rgb(241, 242, 244);
+    padding-top: 20px;
+}
+
+.magazine {
+  background-color: rgb(241, 242, 244);
 }
 
 /*###############################################-----FOOTER----###############################################*/
 .footer {
-    border-top: solid 2px rgb(241, 242, 244);
+  border-top: solid 2px rgb(241, 242, 244);
 }
 
 .footer1 {
