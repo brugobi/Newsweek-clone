@@ -53,6 +53,7 @@ body {
     padding: 12px;
     font-size: 20px;
     font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .london {
@@ -141,6 +142,53 @@ body {
 
 #opinion {
     order: 3;
+}
+
+/*###############################################-----FOOTER----###############################################*/
+.footer {
+    border-top: solid 2px rgb(241, 242, 244);
+}
+
+.footer1 {
+  border-bottom: solid 1px gray;
+}
+
+.footer-2 p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #666666;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.footer-2 a {
+    text-decoration: none;
+    color: #666666;
+    font-weight: normal;
+}
+
+.footer-2 a:hover {
+    color: black;
+}
+
+.footer-icons {
+  color: rgb(83, 83, 83);
+  font-size: 30px;
+}
+
+#Newsweek-2020 {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
+    margin: 0 0 12px;
+}
+
+#logo-footer {
+    font-size: 50px;
+    color: #F72210;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0 15px 12px 0;
 }
 
 /*###############################################-----MEDIA QUERY----###############################################*/
