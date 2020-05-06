@@ -132,6 +132,10 @@ body {
   border-bottom: solid 1px rgb(213, 213,213);
 }
 
+.MAY-ISSUE {
+    background-color: rgb(228, 242, 250);
+}
+
 #feature {
   order: 1;
 }
@@ -144,10 +148,48 @@ body {
   order: 3;
 }
 
+.CARD-MAGANIZE {
+    padding-bottom: 30px;
+}
+
+.editor-pick {
+  background-color: aqua;
+  padding: 0 0 20px;
+}
+
+.N-title {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 19px;
+  color: #333333;
+  padding-left: 7px;
+}
+
+.categorie1 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: rgb(241, 242, 244);
+}
+
+.categorie2 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: red;
+}
+
+.feature-icon {
+  background-color: red;
+}
+
+.card-text {
+  position: relative;
+}
+
 .magazine-section {
-    margin-bottom: 30px;
-    border-top: solid 2px rgb(241, 242, 244);
-    padding-top: 20px;
+  margin-bottom: 30px;
+  border-top: solid 2px rgb(241, 242, 244);
+  padding-top: 20px;
 }
 
 .magazine {
