@@ -181,6 +181,24 @@ body {
   background-color: red;
 }
 
+.debate-article1 {
+    border-bottom: double 5px gray;
+    border-top: solid 3px red;
+}
+
+.debate-article2 {
+    border-bottom: double 5px gray;
+    border-top: solid 3px blue;
+}
+
+.vs {
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  background-color: black;
+  border-radius: 100%;
+}
+
 .card-text {
   position: relative;
 }
