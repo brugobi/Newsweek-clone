@@ -103,6 +103,36 @@ body {
     color: black;
 }
 
+.card-hero {
+    padding: 0;
+}
+
+.card-hero-center {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.categorie-hero {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(182, 203, 206, 0.9);
+}
+
+.hero-title a {
+  text-decoration: none;
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: black;
+  line-height: normal;
+}
+
+.summary-heros {
+    font-family: Helvetica, Arial,sans-serif;
+    font-size: 15px;
+    color: rgb(35, 35, 35, 0.5);
+}
 
 .summary {
     font-family: Arial, Helvetica, sans-serif;
@@ -213,6 +243,23 @@ body {
 
 .card-text {
   position: relative;
+}
+
+.heros-section {
+  padding: 0;
+}
+
+.hero-card img {
+    background-color: royalblue;
+    width: 156px;
+}
+
+.hero-card p {
+    width: 156px;
+}
+
+.hero-card span {
+    width: 156px;
 }
 
 .magazine-section {
