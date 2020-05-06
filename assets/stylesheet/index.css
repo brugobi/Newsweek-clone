@@ -148,6 +148,10 @@ body {
   order: 3;
 }
 
+.insight2 {
+  display: none;
+}
+
 .CARD-MAGANIZE {
     padding-bottom: 30px;
 }
@@ -175,6 +179,14 @@ body {
   left: 0;
   bottom: 0;
   background-color: red;
+}
+
+.categorie3 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: rgb(42, 104, 242);
+    background-color: rgb(241, 242, 244);
 }
 
 .feature-icon {
@@ -289,7 +301,7 @@ body {
 /* Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
 @media (max-width: 767px) { 
     #feature {
-        order: 2;
+      order: 2;
     }
     
     #top {
@@ -297,8 +309,17 @@ body {
     }
     
     #opinion {
-        order: 3;
+      order: 3;
     }
+
+    .insight1 {
+      display: none;
+    }
+
+    .insight2 {
+        display: block;
+      }
+    
 }
 
 /*Dispositivos médios (tablets com 768px ou mais)*/
