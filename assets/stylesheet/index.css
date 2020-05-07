@@ -166,6 +166,7 @@ body {
   font-size: 17px;
 }
 
+
 .opinion-title h6 :hover {
   color: red;
 }
@@ -177,7 +178,10 @@ body {
 
 .opinion li {
   padding-bottom: 2px;
-  border-bottom: solid 1px rgb(213, 213,213);
+}
+
+.opinion li span {
+    border-bottom: solid 1px white;
 }
 
 .MAY-ISSUE {
@@ -262,13 +266,13 @@ body {
 }
 
 .debate-article1 {
-    border-bottom: double 5px gray;
-    border-top: solid 3px red;
+  border-top: solid 3px red;
+  border-bottom: double 3px gray;
 }
 
 .debate-article2 {
-    border-bottom: double 5px gray;
-    border-top: solid 3px blue;
+  border-bottom: double 3px gray;
+  border-top: solid 3px blue;
 }
 
 .vs {
@@ -309,7 +313,7 @@ body {
   background-color: rgb(241, 242, 244);
 }
 
-#magic-pic {
+.magic-pic {
   height: 63.4px;
   width: 95px;
 }
