@@ -2,8 +2,16 @@
 
 This project requests students to build a replica of the news site Newsweek (https://www.newsweek.com/) using the Bootstrap framework.
 
+- desktop version
+
 ![screenshot](./assets/imgs/desktop.png)
+
+- mobile version (medium screen): tablet
+
 ![screenshot](./assets/imgs/Ipad.png)
+
+- mobile version version (small screen): cell phone
+
 ![screenshot](./assets/imgs/mobilephone.png)
 
 ## Built With
@@ -21,9 +29,9 @@ This project requests students to build a replica of the news site Newsweek (htt
 
 To get a local copy up and running follow these simple example steps.
 
-# From the repository, click + in the global sidebar and select Clone this repository under Get to work.
-# Copy the clone command (either the SSH format or the HTTPS). ...
-# From a terminal window, change to the local directory where you want to clone your repository.
+- From the repository, click + in the global sidebar and select Clone this repository under Get to work.
+- Copy the clone command (either the SSH format or the HTTPS). ...
+- From a terminal window, change to the local directory where you want to clone your repository.
 
 ### Usage
 
