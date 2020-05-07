@@ -91,16 +91,34 @@ body {
 }
  
 .feature-title a {
-    text-decoration: none;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 22px;
-    font-weight: bold;
-    color: black;
+  text-decoration: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
 }
 
 .feature-title :hover {
-    text-decoration: underline red;
-    color: black;
+  text-decoration: underline red;
+  color: black;
+}
+
+.more-stories-title a {
+  text-decoration: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
+.more-stories-title p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #333333;
+}
+
+.more-stories-title a:hover {
+  text-decoration: underline red;
+  color: black;
 }
 
 .card-hero {
@@ -179,6 +197,10 @@ body {
 }
 
 .insight2 {
+  display: none;
+}
+
+.more-stories-mobile {
   display: none;
 }
 
@@ -371,7 +393,15 @@ body {
     }
 
     .cuture-travel-section-desktop {
-        display: none;
+      display: none;
+    }
+    
+    .more-stories-desktop {
+      display: none;
+    }
+
+    .more-stories-mobile {
+        display: block;
     }
     
 }
