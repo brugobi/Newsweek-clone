@@ -250,16 +250,15 @@ body {
 }
 
 .hero-card img {
-    background-color: royalblue;
-    width: 156px;
+  width: 156px;
 }
 
 .hero-card p {
-    width: 156px;
+  width: 156px;
 }
 
 .hero-card span {
-    width: 156px;
+  width: 156px;
 }
 
 .magazine-section {
@@ -352,7 +351,7 @@ body {
     }
     
     #top {
-        order: 1;
+      order: 1;
     }
     
     #opinion {
@@ -364,8 +363,16 @@ body {
     }
 
     .insight2 {
-        display: block;
-      }
+      display: block;
+    }
+
+    .heros-section-desktop {
+      display: none;
+    }
+
+    .cuture-travel-section-desktop {
+        display: none;
+    }
     
 }
 
