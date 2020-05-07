@@ -200,12 +200,28 @@ body {
   display: none;
 }
 
+.insight-section-right-mobile {
+  display: none;
+}
+
 .more-stories-mobile {
   display: none;
 }
 
+.heros-section-modile {
+  display: none;
+}
+
+.cuture-travel-section-mobile {
+  display: none;
+}
+
+.latest-news-mobile {
+  display: none;
+}
+
 .CARD-MAGANIZE {
-    padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .editor-pick {
@@ -401,9 +417,32 @@ body {
     }
 
     .more-stories-mobile {
-        display: block;
+      display: block;
+    }
+
+    .latest-news-desktop {
+      display: none;
+    }
+
+    .cuture-travel-section-mobile {
+      display: block;
+    }
+
+    .heros-section-modile {
+      display: block;
     }
     
+    .latest-news-mobile {
+      display: block;
+    }
+
+    .insight-section-right-desktop {
+      display: none;
+    }
+
+    .insight-section-right-mobile {
+      display: block;
+    }
 }
 
 /*Dispositivos médios (tablets com 768px ou mais)*/
