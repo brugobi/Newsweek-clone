@@ -381,14 +381,14 @@ body {
   font-size: 30px;
 }
 
-#Newsweek-2020 {
+.Newsweek-2020 {
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
   color: #666;
   margin: 0 0 12px;
 }
 
-#logo-footer {
+.logo-footer {
   font-size: 50px;
   color: #f72210;
   font-weight: bold;
