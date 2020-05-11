@@ -1,0 +1,422 @@
+body {
+  background-color: rgb(241, 242, 244);
+}
+
+.wrapper {
+  width: 100vw;
+  max-width: 1300px;
+  background-color: white;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ###############################################-----HEADER----############################################### */
+
+.mobile-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f72210;
+  font-family: 'Roboto Condensed', sans-serif;
+  height: 50px;
+}
+
+.desktop-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f72210;
+  font-family: 'Roboto Condensed', sans-serif;
+  height: 96px;
+}
+
+.desktop-header p {
+  font-size: 15px;
+  color: white;
+  padding: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.fa-bars {
+  color: rgb(237, 134, 130);
+  font-size: 14px;
+}
+
+.mobile-header-right {
+  align-self: center;
+  font-size: 14px;
+  padding: 12px;
+}
+
+.logo {
+  float: left;
+  padding: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.london {
+  float: left;
+  padding: 18px;
+  font-size: 14px;
+}
+
+.logo-desktop {
+  display: flex;
+  align-self: center;
+  font-size: 90px;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.nav a {
+  color: black;
+  font-weight: bold;
+}
+
+.more-stories-title a {
+  text-decoration: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
+.feature-title a {
+  text-decoration: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+}
+
+.footer-2 a {
+  text-decoration: none;
+  color: #666;
+  font-weight: normal;
+}
+
+.hero-title a {
+  text-decoration: none;
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  font-weight: normal;
+  color: black;
+  line-height: normal;
+}
+
+.opinion-title a {
+  text-decoration: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: black;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.nav a:hover {
+  color: red;
+  font-weight: bold;
+}
+
+/* ###############################################-----CONTAINER----############################################### */
+.main {
+  margin-top: 10px;
+}
+
+.container {
+  background-color: rgb(241, 243, 245);
+}
+
+.feature-title :hover {
+  text-decoration: underline red;
+  color: black;
+}
+
+.more-stories-title p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #333;
+}
+
+.more-stories-title a:hover {
+  text-decoration: underline red;
+  color: black;
+}
+
+.card-hero {
+  padding: 0;
+}
+
+.card-hero-center {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.categorie-hero {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: rgb(182, 203, 206, 0.9);
+}
+
+.summary-heros {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  color: rgb(35, 35, 35, 0.5);
+}
+
+.summary {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #333;
+}
+
+.opinion-title h6 :hover {
+  color: red;
+}
+
+.opinion-title p {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 14px;
+}
+
+.opinion li {
+  padding-bottom: 2px;
+  border-bottom: solid 1px rgb(238, 239, 241);
+}
+
+.hero-card span {
+  width: 156px;
+}
+
+.SIGNUP-insight {
+  background-color: #f4f5f6;
+  padding: 15px;
+  width: 302px;
+  height: 162px;
+}
+
+#btn-insight {
+  width: 150px;
+}
+
+.opinion li span {
+  border-bottom: solid 1px white;
+}
+
+.MAY-ISSUE {
+  background-color: rgb(228, 242, 250);
+}
+
+#feature {
+  order: 1;
+}
+
+#top {
+  order: 2;
+}
+
+#opinion {
+  order: 3;
+}
+
+.insight2 {
+  display: none;
+}
+
+.CARD-MAGANIZE {
+  padding-bottom: 30px;
+}
+
+.editor-pick {
+  padding: 0 0 20px;
+}
+
+.N-title {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 19px;
+  color: #333;
+  padding-left: 7px;
+}
+
+.categorie1 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: rgb(241, 242, 244);
+}
+
+.categorie2 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: red;
+}
+
+.categorie3 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: rgb(42, 104, 242);
+  background-color: rgb(241, 242, 244);
+}
+
+.feature-icon {
+  background-color: red;
+}
+
+.debate-article1 {
+  border-top: solid 3px red;
+  border-bottom: double 3px gray;
+}
+
+.debate-article2 {
+  border-bottom: double 3px gray;
+  border-top: solid 3px blue;
+}
+
+.vs {
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  background-color: black;
+  border-radius: 100%;
+}
+
+.card-text {
+  position: relative;
+}
+
+.heros-section {
+  padding: 0;
+}
+
+.hero-card img {
+  width: 156px;
+}
+
+.hero-card p {
+  width: 156px;
+}
+
+.magazine-section {
+  margin-bottom: 30px;
+  border-top: solid 2px rgb(241, 242, 244);
+  padding-top: 20px;
+}
+
+.magazine {
+  background-color: rgb(241, 242, 244);
+}
+
+.magic-pic {
+  height: 63.4px;
+  width: 95px;
+}
+
+.aj-pic {
+  height: 95px;
+  width: 95px;
+}
+
+.sports {
+  margin-bottom: 20px;
+  padding-top: 25px;
+  border-top: solid 1px rgb(224, 224, 224);
+}
+
+.sports img {
+  margin: 0 16px 0 0;
+}
+
+.sports li {
+  padding: 5px;
+}
+
+.magazine-pictures {
+  position: relative;
+}
+
+.magazine1 {
+  position: absolute;
+  height: 227px;
+  width: 170px;
+  top: 0;
+  left: 20px;
+}
+
+.magazine2 {
+  position: absolute;
+  height: 227px;
+  width: 170px;
+  top: 10px;
+  left: 100px;
+}
+
+/* ###############################################-----FOOTER----############################################### */
+
+.footer {
+  border-top: solid 2px rgb(241, 242, 244);
+}
+
+.footer1 {
+  border-bottom: solid 1px gray;
+}
+
+.footer-2 p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #666;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.footer-2 a:hover {
+  color: black;
+}
+
+.footer-icons {
+  color: rgb(83, 83, 83);
+  font-size: 30px;
+}
+
+.Newsweek-2020 {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #666;
+  margin: 0 0 12px;
+}
+
+.logo-footer {
+  font-size: 50px;
+  color: #f72210;
+  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0 15px 12px 0;
+}
+
+/* ###############################################-----MEDIA QUERY----############################################### */
+
+/* Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
+@media (max-width: 767px) {
+  #feature {
+    order: 2;
+  }
+
+  #top {
+    order: 1;
+  }
+
+  #opinion {
+    order: 3;
+  }
+
+  .insight1 {
+    display: none;
+  }
+
+  .insight2 {
+    display: block;
+  }
+}
