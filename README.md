@@ -33,9 +33,9 @@ To get a local copy up and running follow these simple example steps.
 - Copy the clone command (either the SSH format or the HTTPS). ...
 - From a terminal window, change to the local directory where you want to clone your repository.
 
-### Usage
+## Usage
 
-Any Brownser
+- Any Brownser
 
 
 👤 **Author**
