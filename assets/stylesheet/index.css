@@ -183,10 +183,22 @@ body {
 
 .opinion li {
   padding-bottom: 2px;
+  border-bottom: solid 1px rgb(238, 239, 241);
 }
 
 .hero-card span {
   width: 156px;
+}
+
+.SIGNUP-insight {
+  background-color: #f4f5f6;
+  padding: 15px;
+  width: 302px;
+  height: 162px;
+}
+
+#btn-insight {
+  width: 150px;
 }
 
 .opinion li span {
@@ -210,26 +222,6 @@ body {
 }
 
 .insight2 {
-  display: none;
-}
-
-.insight-section-right-mobile {
-  display: none;
-}
-
-.more-stories-mobile {
-  display: none;
-}
-
-.heros-section-modile {
-  display: none;
-}
-
-.cuture-travel-section-mobile {
-  display: none;
-}
-
-.latest-news-mobile {
   display: none;
 }
 
@@ -342,6 +334,26 @@ body {
   padding: 5px;
 }
 
+.magazine-pictures {
+  position: relative;
+}
+
+.magazine1 {
+  position: absolute;
+  height: 227px;
+  width: 170px;
+  top: 0;
+  left: 20px;
+}
+
+.magazine2 {
+  position: absolute;
+  height: 227px;
+  width: 170px;
+  top: 10px;
+  left: 100px;
+}
+
 /* ###############################################-----FOOTER----############################################### */
 
 .footer {
@@ -405,46 +417,6 @@ body {
   }
 
   .insight2 {
-    display: block;
-  }
-
-  .heros-section-desktop {
-    display: none;
-  }
-
-  .cuture-travel-section-desktop {
-    display: none;
-  }
-
-  .more-stories-desktop {
-    display: none;
-  }
-
-  .more-stories-mobile {
-    display: block;
-  }
-
-  .latest-news-desktop {
-    display: none;
-  }
-
-  .cuture-travel-section-mobile {
-    display: block;
-  }
-
-  .heros-section-modile {
-    display: block;
-  }
-
-  .latest-news-mobile {
-    display: block;
-  }
-
-  .insight-section-right-desktop {
-    display: none;
-  }
-
-  .insight-section-right-mobile {
     display: block;
   }
 }
