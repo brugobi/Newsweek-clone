@@ -37,8 +37,9 @@ To get a local copy up and running follow these simple example steps.
 
 - Any Brownser
 
+## Author
 
-👤 **Author**
+👤 **Bruna Gobi**
 
 - Github: [@brugobi](https://github.com/brugobi)
 - Twitter: [@BrunaGobi2](https://twitter.com/BrunaGobi2)
