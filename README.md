@@ -22,7 +22,7 @@ This project requests students to build a replica of the news site Newsweek (htt
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/brugobi/Newsweek-clone/newsweek-feature/index.html)
+[Live Demo Link](https://raw.githack.com/brugobi/Newsweek-clone/master/index.html)
 
 
 ## Getting Started
